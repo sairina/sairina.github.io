@@ -1,67 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Sairina's Personal Page</title>
-    <meta charset = "utf-8"/>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Sairina">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="main.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/> -->
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  
+    <title>Sairina's Personal Page</title>
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-            <a class="navbar-brand" href="#">Sairina</a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Landing</a></li>
-              <li><a href="#aboutme">About</a></li>
-              <li><a href="#projects">Projects<a>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    
-    <section class="jumbotron" id="aboutme">
-      <div class="container">
-        <div class="row text-center">
-          <h2>Sairina Merino Tsui</h2>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Sairina</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavBar">
+        <ul class="navbar-nav ml-auto"> <!--aligns to right-->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Landing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#projects" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Meme Generator</a>
+              <a class="dropdown-item" href="#">Memory Game</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class ="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main">
+      <div class="jumbotron">
+        <div class="container" id="aboutme">
+          <h1 class="display-3">Sairina Merino Tsui</h1>
           <p>A Bay Area native, I've spent the last 10 years in education in Oakland, Atlanta, and New York City. What I've seen in that time is that the tech industry has continued to leave behind marginalized communities, including our students and families of color. I believe that needs to change, and so, am moving into the tech world to work on creating more access and to elevate the voices of those whose voices have not typically been heard.</p>
-          <a class="btn btn-primary" href="MerinoTsui_Resume_2019.pdf" download="Resume Sairina Merino Tsui" role="button">R&eacutesum&eacute</a>
+          <a class="btn btn-primary btn-lrg" href="MerinoTsui_Resume_2019.pdf" download="Resume Sairina Merino Tsui" role="button">R&eacutesum&eacute</a>
         </div>
       </div>
-    </section>
-    
-    <section class="container-fluid" id="projects">
-      <div class="row">
-        <h2>Projects</h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <p>Meme Generator</p>
-          <img src="#">
-        </div>
-        <div class="col-sm-6">
-          <p>Memory Game</p>
-          <img src="#">
+      <div class="container" id="projects">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Meme Generator</h2>
+            <img src="#">
+          </div>
+          <div class="col-md-6">
+            <h2>Memory Game</h2>
+            <img src="#">
+        
+          </div>
         </div>
       </div>
-    </section>
-    
-    <footer class="container-fluid" id="contact">
-      <div class="row text-center">
-        <a href=mailto:sairina.merinotsui@gmail.com? subject:"Let's Connect">sairina.merinotsui@gmail.com</a>
-      </div>
+    </main>
+  
+    <footer class="container" id="contact">
+      <p><a href=mailto:sairina.merinotsui@gmail.com? subject:"Let's Connect">sairina.merinotsui@gmail.com</a></p>
     </footer>
   </body>
 </html>
