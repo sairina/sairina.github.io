@@ -1,0 +1,47 @@
+nav {
+    padding-top: 20px;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    color: #000000;
+  }
+  
+  .btn .btn-primary {
+    border-radius:;
+    border: 0;
+    color:;
+    text-shadow: none;
+    background-color:;
+  }
+  
+  #projects {
+    margin: 0;
+  }
+  
+  .btn .btn-primary:hover{
+    color:;
+    background-color:;
+  }
+  
+  footer {
+    height: 70px;
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin: 0;
+  }
+  
+  footer a {
+    color: black;
+    font-size: 16px;
+  }
